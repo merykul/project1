@@ -44,23 +44,25 @@ public class Main {
         long result = sumByte+sumInt+sumShort+sumChar+sumLong+sumFloat+sumDouble;
         System.out.println("First task result: " + result);
 
-        //Конвертація градусів Фарангейта в градуси Цельсії:
-        double degreeFahrenheit = 298;
-        convertToCelsius (degreeFahrenheit);
+        double degreeFahrenheit;
+        double cmConverting;
 
-        //конвертація дюймів у сантиметри:
-        double inch = 20;
-        convertToCm(cmConverting);
+        double cm, cDegree;
+        cm = convertToCm(20);
+        cDegree = convertToCelsius(280);
+
+        System.out.println("Inch convinced to cm: " + cm);
+        System.out.println("Fahrenheit degree convinced to the Celsius degree: " + cDegree);
 
     }
 
     public static double convertToCelsius(double degreeFahrenheit) {
-        System.out.println("Fahrenheit degree convinced to the Celsius degree: " + degreeFahrenheit);
-        return (degreeFahrenheit - 32)*5/9;
+        double Celsius = (degreeFahrenheit - 32)*5/9;
+        return Celsius;
     }
 
-    public static double convertToCm(double cmConverting) {
-        System.out.println("Inch convinced to cm: " + cmConverting);
-        return inch*2.54;
+    public static double convertToCm (double cmConverting) {
+        double cmConv = cmConverting * 2.54;
+        return cmConv;
     }
 }
