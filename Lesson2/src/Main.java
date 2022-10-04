@@ -5,7 +5,7 @@ public class Main {
         byte b8 = 010 ;
         byte b16 = 0xC ;
         byte b10 = 2;
-        int sumByte = b2+b8+b16+b10;
+        int sumByte = b2 + b8 + b16 + b10;
 
         short s2 = 0b11;
         short s8 = 010;
