@@ -40,6 +40,7 @@ public class Main {
         double d10 = 2003;
         int sumDouble =(int) (d16+d10);
 
+        //first task result
         long result = sumByte+sumInt+sumShort+sumChar+sumLong+sumFloat+sumDouble;
         System.out.println("First task result: "+result);
 
