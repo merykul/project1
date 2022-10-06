@@ -41,7 +41,7 @@ public class Main {
         int sumDouble =(int) (d16+d10);
 
         //first task result
-        long result = sumByte+sumInt+sumShort+sumChar+sumLong+sumFloat+sumDouble;
+        long result = sumByte + sumInt + sumShort + sumChar + sumLong + sumFloat + sumDouble;
         System.out.println("First task result: "+result);
 
         //Конвертація градусів Фарангейта в градуси Цельсії:
