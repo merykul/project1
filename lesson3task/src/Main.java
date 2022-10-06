@@ -10,7 +10,7 @@ public class Main {
         symbol = sym.nextShort();
 
 
-        if ( symbol == 1 ) {
+        if (symbol == 1) {
             Scanner num = new Scanner(System.in);
             int first, second, result;
             System.out.println("Enter first number: ");
